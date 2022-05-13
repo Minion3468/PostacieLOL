@@ -11,6 +11,7 @@ g.buyItem(DsS);
 g.showHP();
 
 DoransBlade DsB = new DoransBlade();
+g.showAD();
 g.buyItem(DsB);
 g.showHP();
 g.showAD();
