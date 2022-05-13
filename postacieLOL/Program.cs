@@ -11,10 +11,10 @@ g.buyItem(DsS);
 g.showHP();
 
 DoransBlade DsB = new DoransBlade();
-g.showAD();
+g.showAP();
 g.buyItem(DsB);
 g.showHP();
-g.showAD();
+g.showAP();
 
 
 class Champion
@@ -43,7 +43,7 @@ class Champion
     {
         Console.WriteLine("Postać ma " + hp.ToString() + "HP");
     }
-    public void showAD()
+    public void showAP()
     {
         Console.WriteLine("Postać ma " + ap.ToString() + "AP");
     }
